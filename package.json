@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/israelmarmar/be-the-hero/issues"
   },
   "homepage": "https://github.com/israelmarmar/be-the-hero#readme",
-  "scripts": {
-    "start": "node backend/src/server.js"
+  "dependencies": {
+    "concurrently": "^5.1.0"
   }
 }
