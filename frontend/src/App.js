@@ -1,12 +1,9 @@
 import React from 'react';
-import Routes from './routes';
-
-
-import './global.css';
+import Logon form './pages/Logon'
 
 function App() {
   return (
-    <Routes />
+    <Logon
   );
 }
 
